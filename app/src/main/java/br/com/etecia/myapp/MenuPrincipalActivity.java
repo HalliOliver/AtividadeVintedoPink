@@ -30,7 +30,7 @@ public class MenuPrincipalActivity extends AppCompatActivity {
         imgMenuPrincipal.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(getApplicationContext(), ItensMiniaturaActivity.class));
+                startActivity(new Intent(getApplicationContext(),ItensMiniaturaActivity.class));
             }
         });
     }
