@@ -45,5 +45,7 @@ public class ItensMiniaturaActivity extends AppCompatActivity {
 
         AdapterItensMiniatura adapterItensMiniatura = new AdapterItensMiniatura(this);
 
+        idViewPagerItensMiniatura.setAdapter(adapterItensMiniatura);
+
     }
 }
