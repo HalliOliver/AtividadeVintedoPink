@@ -1,10 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@+id/cardProdutos"
+    android:id="@+id/cardMiniaturas"
     android:layout_width="match_parent"
     android:layout_height="200dp"
     android:layout_margin="20dp"
     >
+
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_gravity="center_vertical"
+        android:layout_margin="20dp"
+        />
 
     <LinearLayout
         android:layout_width="wrap_content"
@@ -12,19 +20,29 @@
         android:orientation="vertical">
 
 
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
-            android:layout_marginTop="5sp"
-            android:textAlignment="center"
-            android:textSize="15sp" />
-
     </LinearLayout>
-    <ImageView
-        android:layout_width="120dp"
-        android:layout_height="120dp"
-        android:layout_gravity="center_vertical"
+
+    <TextView
+        android:id="@+id/CardTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="145dp"
+        android:layout_marginTop="40sp"
+        android:text="64664646"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:fontFamily="@font/childoflouis"
+        />
+
+    <TextView
+        android:id="@+id/CardDescricao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="65sp"
+        android:layout_marginLeft="145dp"
+        android:text="fgdgdgfd"
+        android:textAlignment="textStart"
+        android:textSize="15sp"
+        android:fontFamily="@font/philosopher"
         />
 </androidx.cardview.widget.CardView>

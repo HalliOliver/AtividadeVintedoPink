@@ -6,7 +6,9 @@
     android:background="#2c2c"
     android:gravity="center_horizontal"
     android:orientation="vertical"
-    tools:context=".MiniaturasFragment">
+    tools:context=".MiniaturasFragment"
+    android:id="@+id/FragmentMiniatura"
+    >
 
     <!-- TODO: Update blank fragment layout -->
 
